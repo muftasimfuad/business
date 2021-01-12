@@ -1,0 +1,386 @@
+/* 
+========================================
+		css index
+========================================
+* All custom css 
+* header css start
+* video section css start 
+* mockup section css start
+* phone section css start
+* ipad section css start
+* temas section css start
+* desktop section css start
+* porfolio section css start
+* footer css start
+
+*/
+
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* All custom css */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* header css start */
+header {
+	padding-top: 23px;
+	box-shadow: -84px 18px 51px 29px #fff;
+	position: relative;
+	z-index: 99;
+}
+.menu_icon {
+	position: relative;
+	width: 27px;
+	height: 32px;
+	cursor: pointer;
+	margin-left: 14px;
+	top: 32%;
+}
+.line{
+    position: absolute;
+    width: 26px;
+    height: 2.86px;
+    background: #000000;    
+}
+.one {
+	top: 34%;
+}
+.two {
+	top: 59%;
+}
+.three {
+	top: 87%;
+}
+.logo {
+	line-height: 70px;
+}
+.logo img {
+	width: 241px;
+	height: 56px;
+}
+.main_menu ul {
+	margin: 0;
+}
+.main_menu ul li {
+	display: inline-block;
+	margin-right: 33px;
+}
+.main_menu ul li:last-child{
+    margin-right: 0;
+}
+.main_menu ul li a {
+	text-decoration: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 78px;
+	color: #000000;
+}
+.col-2.pl{
+    padding-left: 0;
+}
+.col-2.line_height {
+	line-height: 5;
+	position: relative;
+}
+header button.btn_style {
+	width: 78%;
+	height: 50px;
+	background: #0066E3;
+	border: 3px solid #0066E3;
+	border-radius: 25px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 28px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.hero_bg{
+	background: url(../images/banner-1.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.hero_content {
+	padding-left: 15px;
+}
+.hero_content h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 57px;
+	line-height: 57px;
+	color: #000000;
+	padding-top: 78px;
+}
+.hero_content p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 30px;
+	color: #000000;
+}
+.hero_content a{
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+}
+.hero_content a img{
+	width: 16px;
+}
+/* header css end */
+/* video section css start */
+.video_banner {
+	position: relative;
+}
+.video_banner > img {
+	width: 80%;
+}
+.video_banner a img {
+	position: absolute;
+	top: 50%;
+	left: 42%;
+	transform: translate(-50%,-50%);
+	width: 9%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+}
+.section_content h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: #000000;
+	margin: 0;
+	line-height: 51px;
+	margin-top: 22px;
+}
+.section_content p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 19px;
+	line-height: 28px;
+	color: #000000;
+	margin: 21px 0;
+	padding-right: 60px;
+}
+.section_content a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+}
+.section_content a img {
+	width: 16px;
+}
+/* video section css end */
+/* mockup section css start */
+.mockup_section .col-6.w {
+	max-width: 40%;
+}
+.pl {
+	margin-left: 30px;
+}
+.section_image img {
+	width: 72%;
+	margin-left: 44px;
+}
+/* mockup section css end */
+/* phone section css start */
+.image_bg {
+	background: #F6F6F8;
+	width: 97%;
+}
+.phone_section .section_image img {
+	width: 44%;
+	margin-left: 44px;
+}
+/* phone section css end */
+/* ipad section css start */
+.col-6.p {
+	padding-left: 30px;
+}
+.ipad_section .section_content p {
+	padding-right: 42px;
+}
+.ipad_section .section_content h3 {
+	padding-right: 136px;
+}
+/* ipad section css end */
+/* temas section css start */
+.section_title h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0;
+	padding: 12px 0;
+}
+.col-6.bg {
+	background: #EDEDED;
+}
+.temas_sec .section_image img {
+	width: 100%;
+	margin-left: 0;
+}
+.image_text a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #000000;
+    padding-right: 206px;
+    position: absolute;
+    left: -154px;
+    text-transform: uppercase;
+    top: 26px;
+}
+.section_imageTwo img {
+	width: 100%;
+	height: 207px;
+}
+/* temas section css end */
+/* desktop section css start */
+.desktop_section .section_image img {
+	width: 631px;
+}
+.desktop_section .section_content h3 {
+	padding-right: 193px;
+}
+/* desktop section css end */
+/* porfolio section css start */
+.porfolio_section .section_content {
+	width: 104%;
+	height: 100%;
+	background: #0066E3;
+    ;
+}
+.porfolio_section .section_content h3 {
+	margin-top: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 56px;
+	color: #FFFFFF;
+	padding: 86px 13px;
+}
+.porfolio_section .section_image img{
+    width: 100%;
+    margin-left: 0;
+}
+/* porfolio section css end */
+/* footer css start */
+.footer_logo img {
+	width: 273px;
+	height: 63px;
+	margin-bottom: 30px;
+}
+.footer_content h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.footer_content p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.footer_subscribeBox input {
+	width: 100%;
+	padding: 9px 15px;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 24px;
+}
+.footer_subscribeBox input::placeholder{
+    background: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C1C1C1;
+}
+.footer_subscribeBox input::-moz-placeholder{
+    background: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C1C1C1;
+}
+.footer_subscribeBox button {
+	width: 105.5px;
+	height: 47px;
+	background: #0066E3;
+	border-radius: 24px;
+	border: transparent;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+.footer_menu ul {
+	margin: 0;
+}
+.footer_menu ul li {
+	display: inline-block;
+	padding-left: 20px;
+	padding-bottom: 12px;
+}
+.footer_menu ul li:first-child{
+    padding-left: 0;
+}
+.footer_menu ul li a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+}
+.social_icon ul {
+	margin: 0;
+}
+.social_icon ul li {
+	display: inline-block;
+}
+.social_icon ul li.mr {
+	margin-left: 54px;
+}
+.top_footer {
+	padding-top: 90px;
+	padding-bottom: 30px;
+}
+.bottom_footer{
+    border-top: 1px solid #8B8585;
+}
+.bottom_footer .copywrite p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #8B8585;
+	padding: 25px 0 55px 0;
+}
+/* footer css end */
